@@ -1,5 +1,6 @@
 import React from 'react'
-import Welcome from './Welcome'
+// import Welcome from './Welcome'
+import Counter from './counter'
 // import './App.CSS'
 
 // function App() {
@@ -8,16 +9,38 @@ import Welcome from './Welcome'
 //       <Welcome/>
 //     </div>
 //   )
+
+// }
+function App() {
+  return (
+    <div>
+      {/* <Counter/>       */}
+     <ColorChange/>
+    </div>
+  )
+
+ }
+
+
+
+// function App() {
+//   return(
+//     <div>
+//       <Welcome name="srabani" age="23" />
+//     </div>
+//   );
+   
+// }
+// function app(){
+//   return (
+//   <div>
+//   <h2>
+//     <welcome name="srabani" age="23"/>
+//   </h2>
+//   </div>
+//   )
 // }
 
-function App() {
-  return(
-    <div>
-      {/* <Welcome name="Riya" /> */}
-      <Welcome name="srabani" age="23" />
-    </div>
-  );
-   
-}
+
 
 export default App

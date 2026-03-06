@@ -8,8 +8,17 @@ import React from 'react'
 //     </div>
 //   )
 // }
-function Welcome(props) {
-  return <h1>My name is {props.name}  and my age is{props.age}</h1>;
+// function Welcome({name,age}) {
+//   return(
+//   <div> <h1>My name is {props.name}  and my age is{props.age}</h1></div>
+//   )
+// }
+
+function welcome({name,age}){
+  return( 
+  <div><h2>{name}{age}</h2></div>
+  )
+
 }
 
 export default Welcome
