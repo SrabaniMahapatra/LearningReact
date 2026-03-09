@@ -1,6 +1,8 @@
 import React from 'react'
 // import Welcome from './Welcome'
-import Counter from './counter'
+// import Counter from './counter'
+import Todo from "./Todo";
+
 // import './App.CSS'
 
 // function App() {
@@ -11,15 +13,17 @@ import Counter from './counter'
 //   )
 
 // }
-function App() {
-  return (
-    <div>
-      {/* <Counter/>       */}
-     <ColorChange/>
-    </div>
-  )
 
- }
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <Counter/>       */}
+//      <ColorChange/>
+//     </div>
+//   )
+
+//  }
 
 
 
@@ -40,6 +44,16 @@ function App() {
 //   </div>
 //   )
 // }
+
+
+function App() {
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
+}
+
 
 
 
